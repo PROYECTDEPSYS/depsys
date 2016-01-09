@@ -1,2 +1,2 @@
 # depsys
-System for almacement information
+System to stock information
