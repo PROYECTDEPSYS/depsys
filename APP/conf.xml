@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<conf>
+  <connectdb>
+    <host>localhost</host>
+    <ip>0.0.0.0</ip>
+    <user>root</user>
+    <pass>pass</pass>
+    <db>database</db>
+    <port>port</port>
+    <flags>flag</flags>
+  </connectdb>
+  <screen>
+    <resolution>
+      <width>1366</width>
+      <height>768</height>
+      <screen>full</screen>
+    </resolution>
+  </screen>
+</conf>
