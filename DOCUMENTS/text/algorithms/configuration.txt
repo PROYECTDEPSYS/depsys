@@ -1,7 +1,8 @@
 Algorithm read for configuration file.
 
 Se pretende crear un algoritmo para leer un archivo en formato xml y pasar mediante este documento
-diferentes parametros a utilizar en el programa al iniciarlo.
+diferentes parametros a utilizar en el programa al iniciarlo. (No me detengo a detallar cada paso
+puesto que ya las funciones que hacen el read del xml y del nodo ya estan definidas en el libxml)
 
  Para póder pasar los parametros al codigo:
   1.- Es necesario leer el archivo xml
@@ -16,11 +17,11 @@ diferentes parametros a utilizar en el programa al iniciarlo.
 
   Amigo se que tu sabes más de programación orientada a objetos y ahora mismo estoy pensando en este
   algoritmo va mejor con un objeto, ¿te digo más o menos como puede ser y me dices que te parecen las
-   2?
+  2?
 
  Para póder pasar los parametros al codigo:
-   1.- Es necesario leer el archivo xml
-   2.- Declarar el tipo de objeto con sus atributos
+   1.- Declarar el tipo de objeto con sus atributos
+   2.- Es necesario leer el archivo xml
    3.- Mientras se lee contar la cantidad de objetos que se encuentran en él.
    4.- Guardar la cantidad de objetos.
    5.- Guardar los valores de los atributos para cada objeto.
