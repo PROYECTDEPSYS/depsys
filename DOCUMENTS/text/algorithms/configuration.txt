@@ -1,0 +1,27 @@
+Algorithm read for configuration file.
+
+Se pretende crear un algoritmo para leer un archivo en formato xml y pasar mediante este documento
+diferentes parametros a utilizar en el programa al iniciarlo.
+
+ Para póder pasar los parametros al codigo:
+  1.- Es necesario leer el archivo xml
+  2.- Mientras se lee contar la cantidad de variables (nodos) que se encuentran en él.
+  3.- Al terminar de contabilizar los nodos que se encuentran en el archivo, guardar la cantidad.
+  4.- Despues de saber la cantidad de nodos a crear dentro del programa guardar el nombre de cada
+      uno dentro de una matriz.
+  5.- Al terminar de guardar los nombres de cada nodo guardar su valores en cada nodo de la matriz.
+  6.- Retornar el arreglo con:
+      [cantidad de variables][nombre del nodo padre(tipo de conf)][nombre del nodo hijo(nombre de la var)][valor]
+
+
+  Amigo se que tu sabes más de programación orientada a objetos y ahora mismo estoy pensando en este
+  algoritmo va mejor con un objeto, ¿te digo más o menos como puede ser y me dices que te parecen las
+   2?
+
+ Para póder pasar los parametros al codigo:
+   1.- Es necesario leer el archivo xml
+   2.- Declarar el tipo de objeto con sus atributos
+   3.- Mientras se lee contar la cantidad de objetos que se encuentran en él.
+   4.- Guardar la cantidad de objetos.
+   5.- Guardar los valores de los atributos para cada objeto.
+   6.- Retornar un arreglo de los objetos.
