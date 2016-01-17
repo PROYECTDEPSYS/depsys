@@ -14,7 +14,7 @@ int main(int argc, char **argv)
   first_child = read_conf( filename );
 
   /* Al valor a buscar le asigno la variable que retorna la función creada */
-  value = value_node( first_child, find_node)
+  value = value_node( first_child, find_node);
 
   /* Imprimo el valor encontrado */
   printf("%s\n",value);

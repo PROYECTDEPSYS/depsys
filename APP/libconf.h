@@ -1,6 +1,6 @@
 #include "libutils.h" /* Libreria con todas las utilerias */
 
-char read_conf(char filename) /* Funcion para leer el archivo y retornar el valor de la raíz */
+char read_conf(char *filename) /* Funcion para leer el archivo y retornar el valor de la raíz */
 {
   xmlDoc *document; /* Puntero con el contenido del documento */
   xmlNode *root; /* Puntero con el nodo raíz */
@@ -38,7 +38,7 @@ char value_node(xmlNode *first_child, char *find_node) /* Función que buscara e
     /* Si el nodo tiene hijos busco el nodo deseado en ellos */
     if (node->children!=NULL)
     {
-      value_node(node->children, *find_node);
+      value_node(node->children, find_node);
     }
 
     /* Al nodo actual le asigno el nombre del siguiente nodo */
