@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <conf> <!--Configuración inicial-->
+
   <connectdb> <!--Conexión a la BD-->
-    <host>localhost</host> <!--Nombre del host-->
+    <host>name</host> <!--Nombre del host-->
     <ip>0.0.0.0</ip> <!--Dirección IP-->
     <user>root</user> <!--Usuario de la BD-->
     <pass>pass</pass> <!--Contraseña de la BD-->
@@ -9,6 +11,7 @@
     <port>port</port> <!--Puerto del servidor-->
     <flags>flag</flags> <!--Etiquetas de la conexión-->
   </connectdb> <!--Termina definición de la conexión a la BD-->
+
   <screen> <!--Ventana en pantalla-->
     <resolution> <!--Resolución de la ventana-->
       <width>1366</width> <!--Ancho-->
@@ -16,4 +19,5 @@
       <screen>full</screen> <!--Modo-->
     </resolution> <!--Termina definición de resolción-->
   </screen> <!--Termina definición de la ventana en pantalla-->
+
 </conf> <!--Termina definición de configuación-->
