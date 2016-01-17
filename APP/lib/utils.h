@@ -1,3 +1,5 @@
+/* Libreria que contiene todas las utilireias a usar en las demás librerias y funciones */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

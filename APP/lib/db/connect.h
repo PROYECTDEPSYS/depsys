@@ -1,3 +1,4 @@
+/* Ejemplo sacado de la v0.1*/
 #include "../utils.h"
 
 void connect()

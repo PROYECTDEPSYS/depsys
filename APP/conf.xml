@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<conf> <!--Configuración inicial-->
+<conf> <!--Configuración inicial del programa-->
 
   <connectdb> <!--Conexión a la BD-->
     <host>name</host> <!--Nombre del host-->
