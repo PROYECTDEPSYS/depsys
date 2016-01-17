@@ -1,4 +1,4 @@
-#include "lib/depsys.h"
+#include "libdepsys.h"
 
 int main(int argc, char **argv)
 {

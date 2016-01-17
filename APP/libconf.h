@@ -1,4 +1,4 @@
-#include "../utils.h" /* Libreria con todas las utilerias */
+#include "libutils.h" /* Libreria con todas las utilerias */
 
 char read_conf(char filename) /* Funcion para leer el archivo y retornar el valor de la raíz */
 {
