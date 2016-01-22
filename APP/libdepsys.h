@@ -1,2 +1,2 @@
-/* Libreria que contiene las librerias principales */
+/* Libreria contenedora */
 #include "libconf.h"

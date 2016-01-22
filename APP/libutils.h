@@ -1,4 +1,4 @@
-/* Libreria que contiene todas las utilireias a usar en las demás librerias y funciones */
+/* Libreria General */
 
 #include <stdio.h>
 #include <stdlib.h>
