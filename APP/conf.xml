@@ -9,6 +9,7 @@
     <pass>pass</pass> <!--Contraseña de la BD-->
     <db>database</db> <!--Esquema a utilizar-->
     <port>port</port> <!--Puerto del servidor-->
+    <socket>NULL</socket> <!--Socket unix-->
     <flags>flag</flags> <!--Etiquetas de la conexión-->
   </connectdb> <!--Termina definición de la conexión a la BD-->
 
